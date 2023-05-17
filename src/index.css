@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Futura Std Extra Bold';
+    src: url(/Futura-Std-Extra-Bold-Condensed.ttf) format('truetype');
+}
+
+.font-nike {
+    font-family: 'Futura Std Extra Bold', sans-serif;
+}
