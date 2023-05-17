@@ -10,6 +10,6 @@ export default {
       'nike': ['Futura Std Extra Bold','sans-serif']
     }  
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 

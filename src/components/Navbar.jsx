@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Drawer from "./Navbar/Drawer";
 import DropdownHover from "./Navbar/DropdownHover";
+import DaisyDropdown from "./Navbar/DaisyDropdown";
 
 export default function Navbar({}) {
   const [openPopUp, setOpenPopUp] = useState(false);
@@ -30,6 +31,9 @@ export default function Navbar({}) {
           </a>
           <div className="flex min-[960px]:order-2 gap-10">
             <DropdownHover>New & Featured</DropdownHover>
+            <DropdownHover>New & Featured</DropdownHover>
+
+            <DaisyDropdown/>
 
           </div>
           <div className="flex min-[960px]:order-2 justify-items-start mr-14">
