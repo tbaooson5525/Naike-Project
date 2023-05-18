@@ -6,7 +6,7 @@ export default function RootLayout() {
         <div>
             <Navbar />
             <main>
-                <Outlet/>
+                <Outlet />
             </main>
         </div>
     );
