@@ -1,0 +1,18 @@
+export default function MoreAll({ children, more }) {
+    if (!more) return null;
+    return (
+      <div>
+        <div>
+          <ul>
+            <li>
+              <div className="flex items-center gap-3 pb-5">
+                <input type="checkbox" name="a" className="w-4 h-4" />
+                <label className="text-base font-normal">{children}</label>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    );
+  }
+  
