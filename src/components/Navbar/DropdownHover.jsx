@@ -13,7 +13,7 @@ export default function DropdownHover({ children }) {
   return (
     <div className="flex flex-col items-center ">
       <button
-        // onClick={handleHover}
+        onClick={handleHover}
         onMouseEnter={handleHover}
         className="text-[#111111] justify-between inline-block p-4  border-b-2 border-transparent hover:text-gray-600 hover:border-[#111111] transition-none delay-150 "
       >
