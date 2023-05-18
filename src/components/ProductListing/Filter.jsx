@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Checkbox from "./checkbox";
+import Checkbox from "./Checkbox";
 import CheckModel from "./CheckModel";
 import More from "./More";
 import MoreAll from "./MoreAll";
@@ -7,8 +7,6 @@ import MoreAll from "./MoreAll";
 
 export default function Filter({ open, onFilterClose }) {
   if (!open) return null;
-
-  // const [checkBox, setCheckBox] = useState(false);
 
   const [check, setCheck] = useState(false);
 
