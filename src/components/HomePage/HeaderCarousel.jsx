@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ArrowBackIosNewRoundedIcon from '@mui/icons-material/ArrowBackIosNewRounded';
+import { Link } from 'react-router-dom';
 
 
 export default function HeaderCarousel() {
@@ -54,12 +55,12 @@ export default function HeaderCarousel() {
             </div> */}
             <div className='flex gap-x-3 min-[600px]:px-12 min-[600px]:py-[30px]'>
                 {imgCarousel.map((slide, index) => (
-                    <a key={slide.key} href="#">
+                    <Link key={slide.key} to='/products'>
                         <div className={`slide ${index === currentSlide ? 'active' : ''} min-h-[150px] min-w-[150px]`}>
                             <img className=' object-cover' src={slide.imgUrl} alt={slide.name} />
                             <h3 className='mt-12 text-xl font-medium'>{slide.name}</h3>
                         </div>
-                    </a>
+                    </Link>
                 ))}
             </div>
         </div>

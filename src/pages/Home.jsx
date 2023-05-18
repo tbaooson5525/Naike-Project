@@ -21,7 +21,7 @@ export default function Home() {
             <HomeLatest/>
             <HomePopular/>
             <TheEssential/>
-            {/* <Footer/> */}
+            <Footer/>
         </div>
     )
 }

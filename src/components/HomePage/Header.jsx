@@ -10,7 +10,7 @@ export default function Header() {
                 <p className='mt-6'>
                     Move. Explore. Bring your boldest. Get after summer's endless possibilities with ready-for-anything fits.
                 </p>
-                <HomeButton bgColor={"black"} textColor={"white"} link={"#"} children={"Shop"}/>
+                <HomeButton bgColor={"black"} textColor={"white"} link={"/products"} children={"Shop"}/>
             </div>
         </div>
     )

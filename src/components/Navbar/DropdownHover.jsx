@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export default function DropdownHover({ children }) {
   const [hover, setHover] = useState(false);
@@ -25,47 +26,7 @@ export default function DropdownHover({ children }) {
             onMouseLeave={handleHoverOff}
             className=" bg-white  flex justify-center gap-10   transition-none delay-150 pt-8 pb-10 "
           >
-            <div>
-              <a href="">
-                <h4 className="  items-center text-center ">Featured</h4>
-              </a>
-              <ul>
-                <li>
-                  <a href="">asda</a>
-                </li>
-                <li>
-                  <a href="">asda</a>
-                </li>
-                <li>
-                  <a href="">asdas</a>
-                </li>
-                <li>
-                  <a href="">asda</a>
-                </li>
-                <li>
-                  <a href="">asda</a>
-                </li>
-                <li>
-                  <a href="">asdas</a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h4 className=" items-center text-center ">Shop Icons</h4>
-              <ul>
-                <li>
-                  <a href=""></a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="  items-center text-center ">Best Read</h4>
-              <ul>
-                <li>
-                  <a href=""></a>
-                </li>
-              </ul>
-            </div>
+            <NavLink></NavLink>
           </div>
           <div className="h-screen w-[110vw] bg-black z-50 opacity-75"></div>
         </div>

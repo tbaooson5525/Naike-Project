@@ -3,7 +3,7 @@ import HomeButton from './HomeButton'
 
 export default function TheEssential() {
     return (
-        <div className='mt-[84px] mx-6'>
+        <div className='my-[84px] mx-6'>
             <h2 className='text-2xl leading-7 font-medium mb-6'>The Essentials</h2>
             <div className='grid gap-y-2 min-[600px]:grid-cols-3 min-[600px]:gap-x-3'>
                 <div className='relative'>
